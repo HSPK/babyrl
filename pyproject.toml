@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
@@ -30,9 +30,6 @@ dependencies = []
 Documentation = "https://github.com/unknown/babyrl#readme"
 Issues = "https://github.com/unknown/babyrl/issues"
 Source = "https://github.com/unknown/babyrl"
-
-[tool.hatch.version]
-path = "src/babyrl/__about__.py"
 
 [tool.hatch.envs.default]
 dependencies = [
