@@ -27,9 +27,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/unknown/babyrl#readme"
-Issues = "https://github.com/unknown/babyrl/issues"
-Source = "https://github.com/unknown/babyrl"
+Documentation = "https://github.com/HSPK/babyrl#readme"
+Issues = "https://github.com/HSPK/babyrl/issues"
+Source = "https://github.com/HSPK/babyrl"
 
 [tool.hatch.envs.default]
 dependencies = [
